@@ -45,11 +45,15 @@ Cybersecurity and Machine Learning
 # Results: 
 Various machine learning models were implemented and compared using the macro-F1 score, precision, recall, and other metrics. These models include:
 Comparison report:
+
 ![comparison table](https://github.com/user-attachments/assets/0031a513-faf1-45e6-83a4-c2d32f365730)
+
 # Applying SMOTE to the Training Data for Class Imbalance and Hyperparameter Tuning
 SMOTE generates synthetic samples of the minority class (e.g., true positives) by interpolating between existing minority class examples. This helps balance the class distribution and prevents the model from being biased toward the majority class.
 results after smote:
+
 ![Screenshot 2024-11-13 221318](https://github.com/user-attachments/assets/b06529de-80c4-4492-8ad9-40a5c03a7fea)
+
 # Conclusion
 The Random Forest model has demonstrated superior performance in classifying cybersecurity incidents, outpacing alternative models through its robust accuracy and adaptability. This project not only establishes a reliable framework for incident classification but also delivers a scalable solution tailored for Security Operations Center (SOC) teams.
 
